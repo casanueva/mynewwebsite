@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
 import logo from './logo.svg';
 import jumboImage from './jumbo.png';
+import linkedinImage from './linkedinimage.png';
+import twitterImage from './twitterimage.png';
 import './App.css';
 
 
@@ -14,7 +16,10 @@ class App extends Component {
           <Grid>
             <Navbar.Header>
               <Navbar.Brand>
-                <a href="/">React App</a>
+                <a href="linkedin.com/in/jonathan-willumsen-4b567680"><img height="32" width="32" src={linkedinImage}/></a>
+              </Navbar.Brand>
+              <Navbar.Brand>
+                <a href="https://twitter.com/ironjontan"><img height="32" width="32" src={twitterImage}/></a>
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
